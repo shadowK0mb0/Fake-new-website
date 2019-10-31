@@ -1,0 +1,214 @@
+
+
+ul.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li.menu {
+  float: left;
+}
+
+li a.menu{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover.menu{
+  background-color: #111111;
+}
+#resbody {
+    background: #f2f0ee;
+}
+
+#resbody {
+    width: 1000px;
+    min-height: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    padding: 0px;
+    text-align: left;
+    overflow: auto;
+    clear: both;
+}
+body {
+    background-image: url(background.jpeg);
+}
+.content4x {
+    width: 660px;
+    height: auto;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    margin: 0px 10px 20px 10px;
+    padding-bottom: 1px;
+    float: left;
+    display: block;
+    white-space: wrap;
+    background-color: #f8f8f8;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.15);
+}
+.headline {
+    color: #666360;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.headlinebox {
+    padding: 5px 1% 5px 1%;
+    height: 65px;
+    width: 98%;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+.H1 {
+    font-size: 1.3em;
+    line-height: 1.1em;
+    margin-bottom: 5px;
+    padding: 0px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
+a.H1:hover {
+    color: #408040 !important;
+}
+.content {
+    padding: 5px 10px 10px 10px;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 15px;
+    line-height: 17px;
+    font-weight: normal;
+}
+.homeRight {
+    width: 310px;
+    height: auto;
+    float: left;
+    padding: 40px 0px 0px 5px;
+}
+.homeLeft {
+    width: 680px;
+    height: auto;
+    float: left;
+    padding-right: 5px;
+}
+.rsinfo {
+    font-size: 1.5em;
+    line-height: 1.0em;
+    letter-spacing: -0.5px;
+    font-weight: 300;
+    color: rgb(120,150,180);
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.sidebarSpace {
+    width: 300px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    clear: both;
+    border-bottom: 1px #d8d8d8 solid;
+}
+.homeList li {
+    background-color: #f8f6f4;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.15);
+    width: 291px;
+    padding: 1px 4px 1px 5px;
+    margin: 3px 0px 3px 0px;
+    
+}
+.big {
+    height: 120px;
+}
+a.sidebar {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: bold;
+    letter-spacing: -0.3px;
+    color: #606060;
+}
+a.sidebar:hover  {
+    color: #408040 !important;
+}
+a {
+    text-decoration: none;
+}
+ol {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.lol {
+  max-width:100%;
+  max-height:80%;
+}
+.homelist-rubric {
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: .08em;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(0,0,0,0.6);
+    font-size: 10px;
+    line-height: 9px;
+    display: block;
+    margin: 0 0 4px;
+}
+.homelist-title {
+    font-family: lab-grotesque-black,HelveticaNeue-Bold,"Helvetica Neue Bold","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    color: rgba(0,0,0,0.8);
+    font-size: 14px;
+    line-height: 16px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.15s cubic-bezier(0.33, 0.66, 0.66, 1);
+    word-break: break-word;
+    word-wrap: break-word;
+}
+.homelist-component {
+    display: flex;
+    height:100%;
+    width:100%;
+}
+.lol2 {
+    height:100%;
+    width:120px;
+}
+.ad-explain {
+    display: block;
+    box-sizing: border-box;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    text-align: -webkit-match-parent;
+    text-rendering: optimizeSpeed;
+}
