@@ -75,3 +75,7 @@
     overflow: hidden;
     margin-bottom: 10px;
 }
+.typical-link{
+    text-decoration: underline;
+    color: #0000ff;
+}

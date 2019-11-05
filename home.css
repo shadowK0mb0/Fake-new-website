@@ -81,6 +81,13 @@ body {
     font-weight: bold;
     letter-spacing: -0.5px;
 }
+.H1-big {
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 0px;
+    font-weight: bold;
+    letter-spacing: -0.5px;
+}
 a.H1:hover {
     color: #408040 !important;
 }
