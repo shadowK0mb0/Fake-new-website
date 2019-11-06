@@ -1,0 +1,111 @@
+body {
+    color: #333;
+    font-size: 1rem;
+    font-stretch: normal;
+    letter-spacing: normal;
+    font-family: Arial;
+    line-height: 1.6;
+    letter-spacing: .2px;
+}
+@media only screen and (min-width: 53em)
+.container {
+    padding: 0 24px;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 12px;
+}
+.pos-relative {
+    position: relative;
+}
+.col {
+    box-sizing: border-box;
+    float: left;
+    display: block;
+    
+}
+.feature-container {
+    width: 66.66667%;
+}
+.side-container {
+    width: 33.33333%;
+    margin-left: 0;
+}
+.featured-wrapper-image-container {
+    position: relative;
+    padding-bottom: 66.6%;
+    height: 0;
+    background: #ddd;
+    overflow: hidden;
+    display: block;
+}
+a {
+    background-color: transparent;
+    text-decoration: none;
+}
+a, a.active, a:hover {
+    color: #12bdfd;
+}
+.featured-wrapper-image-container img {
+    position: absolute;
+    display: block;
+    width: 100%;
+    max-width: inherit;
+}
+.featured-wrapper-image-container:after {
+    content: "";
+    height: 12px;
+    width: 100%;
+    background-image: linear-gradient(90deg,#12befd,#9e77f3);
+    display: block;
+    position: absolute;
+    opacity: .7;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+.featured-wrapper-image-container:after {
+    bottom: 0;
+}
+.home-featured {
+    text-align: left;
+}
+.navbar {
+    background: #fff;
+    padding: .8rem 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    color: #000;
+    box-shadow: 0 2px 3px rgba(0,0,0,.3);
+    border: 0;
+    border-top: 5px solid #000;
+    border-image: linear-gradient(90deg,#12bdfd,#9f79f3) 6;
+}
+.navbar-end {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    list-style-type: none;
+    font-family: Lato,sans-serif;
+    font-size: 1.125rem;
+}
+.navbar-start {
+    font-weight: 400;
+}
+ul, ul li {
+    list-style-type: none;
+}
+ul {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+}
